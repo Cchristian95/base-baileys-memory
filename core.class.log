@@ -1,0 +1,96 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573177153157@s.whatsapp.net',
+    fromMe: false,
+    id: '1A0D4435319BE286CAF10B1D5564E187',
+    participant: undefined
+  },
+  messageTimestamp: 1712173462,
+  pushName: 'Christian Calvache',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573177153157'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5582d194-800d-416b-832e-54ccdcc8f70a',
+  keyword: 'key_183b45a2-c5aa-4efe-9545-5617f82e20ad',
+  answer: '¡Hola! 😊 ¡Bienvenido a TicketYa  ⭐',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '74d17183002a7c1f4f0f1036007ab1ad'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9a046d87-aa50-40de-8cff-54a8be12312c',
+  keyword: 'ans_5582d194-800d-416b-832e-54ccdcc8f70a',
+  answer: '¡Estamos aquí para ayudarte en todo lo que necesites!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2dcd1e338531815be929975b46ebe8df'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8bbec1dc-8502-462c-bee9-ab1aba09e46c',
+  keyword: 'ans_9a046d87-aa50-40de-8cff-54a8be12312c',
+  answer: '¡Haz clic en el enlace para descubrir nuestro amplio catálogo!\n' +
+    '⭕Enlace 👉🏻 https://ticketya.com.co/',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '48c7bc862c27139f47ff3ea256ccfd7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_705f7c9b-a650-4f64-b0b6-8aa481bb9f25',
+  keyword: 'ans_8bbec1dc-8502-462c-bee9-ab1aba09e46c',
+  answer: '¡No te pierdas nuestras promociones y ofertas! Síguenos en Instagram y Facebook para estar al tanto de todo. 👇🏻\n' +
+    '🔸Instagram: https://www.instagram.com/ticketyacol/\n' +
+    '🔹Facebook: https://www.facebook.com/ticketyacolombia\n' +
+    'EL PRODUCTO INCLUYEN ENVÍO Y PAGO CONTRAENTREGA',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3af5d6ea078a96a1f92234d73da4a8f4'
+}
