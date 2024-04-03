@@ -32,9 +32,6 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','precio','valor','cuanto'
     const contraEntrega = addKeyword(['pago contra entrega','contra entrega', 'contraentrega','contra reembolso','paga en casa'])
     .addAnswer(
         [
-            '⭐Trapero Triangular 360 ⭐',
-
-            'PRECIO: 💵 79.900💵 ENVIO INCLUIDO🚛',
 
             '📦 ¡DATOS DE ENVÍO A CONTRA ENTREGA!',
 
@@ -48,7 +45,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','precio','valor','cuanto'
             'Correo Electrónico:',
 
             'Características y especificaciones:👇',
-            'https://www.spaceshopcolombia.com/producto/trapero-triangular-360',
+            'www.ticketya.com.co',
         ],
         null,
         null,
@@ -58,11 +55,9 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','precio','valor','cuanto'
     const pagoEnLinea = addKeyword(['pago en linea','pagar online', 'pagar en tienda','pago anticipado','pagar en tienda en linea'])
     .addAnswer(
         [
-            '⭐Trapero Triangular 360 ⭐',
-            'Precio: 💵 79.900💵 Envío incluido. 🚛',
 
             '⭕Dale Clic al Enlace para Comprar en Linea👉🏻',
-            'www.spaceshopcolombia.com/producto/trapero-triangular-360/',
+            'www.ticketya.com.co',
 
             'Al Finalizar tu compra uno de nuestros asesores se pondra en contacto contigo para anexar la guia de su pedido.',
         ],
