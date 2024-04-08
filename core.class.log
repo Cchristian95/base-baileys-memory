@@ -2,10 +2,10 @@
   key: {
     remoteJid: '573177153157@s.whatsapp.net',
     fromMe: false,
-    id: '1A0D4435319BE286CAF10B1D5564E187',
+    id: 'EBDC5785C5A8E1B0C8A163ACF202F11E',
     participant: undefined
   },
-  messageTimestamp: 1712173462,
+  messageTimestamp: 1712607003,
   pushName: 'Christian Calvache',
   broadcast: false,
   message: Message {
@@ -19,9 +19,9 @@
   from: '573177153157'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5582d194-800d-416b-832e-54ccdcc8f70a',
-  keyword: 'key_183b45a2-c5aa-4efe-9545-5617f82e20ad',
-  answer: '¡Hola! 😊 ¡Bienvenido a TicketYa  ⭐',
+  ref: 'ans_1db8c268-9532-49e0-9e6f-154c78b36212',
+  keyword: 'key_0768b1eb-8303-4e29-ad91-00240255cf65',
+  answer: '¡Hola! 😊 ¡Bienvenido a TicketYa ⭐! Estamos aquí para ayudarte en todo lo que necesites',
   options: {
     media: null,
     buttons: [],
@@ -34,12 +34,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '74d17183002a7c1f4f0f1036007ab1ad'
+  refSerialize: 'a702cae05766313c1f9ca2fdedd1d797'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9a046d87-aa50-40de-8cff-54a8be12312c',
-  keyword: 'ans_5582d194-800d-416b-832e-54ccdcc8f70a',
-  answer: '¡Estamos aquí para ayudarte en todo lo que necesites!',
+  ref: 'ans_1be71833-bf78-4700-8dea-67e7fc6c34a6',
+  keyword: 'ans_1db8c268-9532-49e0-9e6f-154c78b36212',
+  answer: '¡Tu satisfacción es nuestra prioridad,si el producto no cumple con tus expectativas te devolvemos tu dinero !',
   options: {
     media: null,
     buttons: [],
@@ -52,13 +52,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2dcd1e338531815be929975b46ebe8df'
+  refSerialize: 'e502148d37e7068a5fbc1560c19e9a79'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8bbec1dc-8502-462c-bee9-ab1aba09e46c',
-  keyword: 'ans_9a046d87-aa50-40de-8cff-54a8be12312c',
-  answer: '¡Haz clic en el enlace para descubrir nuestro amplio catálogo!\n' +
-    '⭕Enlace 👉🏻 https://ticketya.com.co/',
+  ref: 'ans_20f92fef-a4b8-4123-9fd8-092e4b1780a7',
+  keyword: 'ans_1be71833-bf78-4700-8dea-67e7fc6c34a6',
+  answer: 'Por favor indícame qué es lo que deseas hacer, Selecciona una opción (1, 2, o 3) y te ayudaré.',
   options: {
     media: null,
     buttons: [],
@@ -71,15 +70,14 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '48c7bc862c27139f47ff3ea256ccfd7b'
+  refSerialize: 'a6805077da0a274ae31a6929f93a4928'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_705f7c9b-a650-4f64-b0b6-8aa481bb9f25',
-  keyword: 'ans_8bbec1dc-8502-462c-bee9-ab1aba09e46c',
-  answer: '¡No te pierdas nuestras promociones y ofertas! Síguenos en Instagram y Facebook para estar al tanto de todo. 👇🏻\n' +
-    '🔸Instagram: https://www.instagram.com/ticketyacol/\n' +
-    '🔹Facebook: https://www.facebook.com/ticketyacolombia\n' +
-    'EL PRODUCTO INCLUYEN ENVÍO Y PAGO CONTRAENTREGA',
+  ref: 'ans_a2c50a6e-fbf4-4fc1-b111-8b5f7d6aaece',
+  keyword: 'ans_20f92fef-a4b8-4123-9fd8-092e4b1780a7',
+  answer: '1. 🛍️ Ver productos disponibles.\n' +
+    '2. 🚚 Información sobre envíos y devoluciones.\n' +
+    '3. 💬 Hablar con un asesor.',
   options: {
     media: null,
     buttons: [],
@@ -92,5 +90,99 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '3af5d6ea078a96a1f92234d73da4a8f4'
+  refSerialize: 'cd84d9bdab564146aa6c1822baf528ee'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573177153157@s.whatsapp.net',
+    fromMe: false,
+    id: '366CBE9BB26773DD814BBF5A9CC35D4D',
+    participant: undefined
+  },
+  messageTimestamp: 1712607068,
+  pushName: 'Christian Calvache',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573177153157'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1db8c268-9532-49e0-9e6f-154c78b36212',
+  keyword: 'key_0768b1eb-8303-4e29-ad91-00240255cf65',
+  answer: '¡Hola! 😊 ¡Bienvenido a TicketYa ⭐! Estamos aquí para ayudarte en todo lo que necesites',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a702cae05766313c1f9ca2fdedd1d797'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1be71833-bf78-4700-8dea-67e7fc6c34a6',
+  keyword: 'ans_1db8c268-9532-49e0-9e6f-154c78b36212',
+  answer: '¡Tu satisfacción es nuestra prioridad,si el producto no cumple con tus expectativas te devolvemos tu dinero !',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e502148d37e7068a5fbc1560c19e9a79'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_20f92fef-a4b8-4123-9fd8-092e4b1780a7',
+  keyword: 'ans_1be71833-bf78-4700-8dea-67e7fc6c34a6',
+  answer: 'Por favor indícame qué es lo que deseas hacer, Selecciona una opción (1, 2, o 3) y te ayudaré.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a6805077da0a274ae31a6929f93a4928'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a2c50a6e-fbf4-4fc1-b111-8b5f7d6aaece',
+  keyword: 'ans_20f92fef-a4b8-4123-9fd8-092e4b1780a7',
+  answer: '1. 🛍️ Ver productos disponibles.\n' +
+    '2. 🚚 Información sobre envíos y devoluciones.\n' +
+    '3. 💬 Hablar con un asesor.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'cd84d9bdab564146aa6c1822baf528ee'
 }

@@ -7,26 +7,32 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo','precio','valor','cuanto','que vale'])
-    .addAnswer('¡Hola! 😊 ¡Bienvenido a TicketYa  ⭐')
+    .addAnswer('¡Hola! 😊 ¡Bienvenido a TicketYa ⭐! Estamos aquí para ayudarte en todo lo que necesites')
+    
+    .addAnswer('¡Tu satisfacción es nuestra prioridad,si el producto no cumple con tus expectativas te devolvemos tu dinero !')
+    
+    .addAnswer('Por favor indícame qué es lo que deseas hacer, Selecciona una opción (1, 2, o 3) y te ayudaré.')
+
     .addAnswer(
         [
-            '¡Estamos aquí para ayudarte en todo lo que necesites!'])
-    .addAnswer(
-        [    
-            '¡Haz clic en el enlace para descubrir nuestro amplio catálogo!', 
-            
-            '⭕Enlace 👉🏻 https://ticketya.com.co/',])
+            '1. 🛍️ Ver Productos Disponibles.',
+            '2. 🚚 Envíos y Devoluciones.',
+            '3. 💬 Hablar con un Asesor.'            
+
+        ]
+    )
+const subFlujo1 = addKeyword(['1', 'uno', 'numero uno','numero 1','ver productos disponibles','productos disponibles'])
+    .addAnswer('Por favor, selecciona la opción que más te interese:')
+    
+    .addAnswer('Por favor indícame qué es lo que deseas hacer, Selecciona una opción (1, 2, o 3) o escribe en nombre del producto.')
+
     .addAnswer(
         [
-            '¡No te pierdas nuestras promociones y ofertas! Síguenos en Instagram y Facebook para estar al tanto de todo. 👇🏻',    
-            '🔸Instagram: https://www.instagram.com/ticketyacol/',
-            '🔹Facebook: https://www.facebook.com/ticketyacolombia',
-            
-            'EL PRODUCTO INCLUYEN ENVÍO Y PAGO CONTRAENTREGA',
-        ],
-        null,
-        null,
-        []
+            '1. 👙 Kit glúteos.',
+            '2. 🧹 Trapero.',
+            '3. 🍽️ Escurridor.',            
+            '4. 💬 Hablar con un asesor.'            
+        ]
     )
 
     const contraEntrega = addKeyword(['pago contra entrega','contra entrega', 'contraentrega','contra reembolso','paga en casa'])
@@ -84,7 +90,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','precio','valor','cuanto'
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal, contraEntrega, pagoEnLinea, hablarAsesor])
+    const adapterFlow = createFlow([flowPrincipal, contraEntrega, pagoEnLinea, hablarAsesor, subFlujo1])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
