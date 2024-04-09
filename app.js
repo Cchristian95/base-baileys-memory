@@ -93,7 +93,7 @@ const subFlujo1 = addKeyword(['1', 'uno', 'numero uno', 'numero 1', 'Ver product
             'a. 🌞 Kit Solar de emergencia.',
             'b. 🧹 Trapero triangular 360.',
             'c. 🍽️ Escurridor de platos.',
-            'd. 📖 Ver catalogo.'
+            'd. 📖 Ver catalogo completo.'
         ],
         null,
         null,
