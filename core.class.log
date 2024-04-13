@@ -2,30 +2,26 @@
   key: {
     remoteJid: '573177153157@s.whatsapp.net',
     fromMe: false,
-    id: '3EB063B5D9EF9F06BCA263',
+    id: '85F0CB411D32E55F741D6796C0B99DE0',
     participant: undefined
   },
-  messageTimestamp: 1712703004,
+  messageTimestamp: 1712962120,
   pushName: 'Christian Calvache',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'hola',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
+  body: 'Hola',
   from: '573177153157'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_294bdbc5-b319-47a9-9a9f-d0c25c114cb4',
-  keyword: 'key_8adcd082-5196-415a-ac1b-2d523ced5743',
-  answer: '¡Hola! 😊 ¡Bienvenido a TicketYa ⭐! Estamos aquí para ayudarte en todo lo que necesites',
+  ref: 'ans_219fcc10-0c98-49e2-95a3-341c98c6c614',
+  keyword: 'key_31a0a395-2760-428a-8115-ca06cbdf7e62',
+  answer: '¡Hola! 😊 ¡Bienvenido a *Space Shop Colombia* ⭐!',
   options: {
     media: null,
     buttons: [],
@@ -38,12 +34,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd1c17ed726bd0fbe4ddaac09dd1e7d7c'
+  refSerialize: 'dfc95ceb0d3759fb182e00188eaaa76c'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_67fa2299-0453-4362-a7f0-ce0eae3d423d',
-  keyword: 'ans_294bdbc5-b319-47a9-9a9f-d0c25c114cb4',
-  answer: '¡Tu satisfacción es nuestra prioridad,si el producto no cumple con tus expectativas te devolvemos tu dinero!',
+  ref: 'ans_ba19c33a-a122-4439-89bc-e8e293ad4469',
+  keyword: 'ans_219fcc10-0c98-49e2-95a3-341c98c6c614',
+  answer: '¡ *Tu satisfacción es nuestra prioridad*, recuerda que todos nuestros productos tienen *garantia*!',
   options: {
     media: null,
     buttons: [],
@@ -56,11 +52,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '4c9151fa890246f13ed4c000e0f3f34c'
+  refSerialize: '71c5ca6e2f2ad365fac15bde21f3d652'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6b518162-0019-4331-a14e-55c953eab7f1',
-  keyword: 'ans_67fa2299-0453-4362-a7f0-ce0eae3d423d',
+  ref: 'ans_78d49339-220a-41e0-aa22-1e90d2d1920c',
+  keyword: 'ans_ba19c33a-a122-4439-89bc-e8e293ad4469',
   answer: 'Por favor selecciona una opción (1, 2, o 3).',
   options: {
     media: null,
@@ -74,14 +70,14 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '654cffdff71feda4dbf2569d6887789e'
+  refSerialize: '272f957be7ce0720ff87d0b6a91d0dc7'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c0f79384-c44f-4789-acb9-0c2ed02b86d1',
-  keyword: 'ans_6b518162-0019-4331-a14e-55c953eab7f1',
-  answer: '1. 🛍️ *Ver Productos Disponibles*\n' +
-    '2. 🚚 *Envíos y Devoluciones*\n' +
-    '3. 💬 *Hablar con un Asesor*',
+  ref: 'ans_63f62d23-0d08-4b15-8668-7a4729d20728',
+  keyword: 'ans_78d49339-220a-41e0-aa22-1e90d2d1920c',
+  answer: '*1. ⭐ Ver Productos Estrella*\n' +
+    '*2. 🚚 Estado de pedido y Garantias*\n' +
+    '*3. 💬 Hablar con un asesor*',
   options: {
     media: null,
     buttons: [],
@@ -94,12 +90,292 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'fecfd6e6e2ff8882ae2ceb4a9a9829c3'
+  refSerialize: 'd0eb7d6e4a1625c5ec687e16367bd9f8'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_68c697cf-6171-44f5-8ec4-d49e7e1d38bd',
-  keyword: 'ans_c0f79384-c44f-4789-acb9-0c2ed02b86d1',
-  answer: 'Estamos aqui para ayudarte',
+  ref: 'ans_a833cbe1-6148-4c8d-84f6-4f61e962bb4e',
+  keyword: 'ans_63f62d23-0d08-4b15-8668-7a4729d20728',
+  answer: '*Escribe un numero 👇, o deja tu mensaje*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd1062883c6da4913ea109691a306ab4c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573177153157@s.whatsapp.net',
+    fromMe: false,
+    id: '35D58B508EF0D386ADEBE742434F521C',
+    participant: undefined
+  },
+  messageTimestamp: 1712962124,
+  pushName: 'Christian Calvache',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573177153157'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1193aa7f-b6ca-48ca-875a-c0998e55ed86',
+  keyword: 'key_c8635665-ec3d-40f5-bddd-d34608fbafa0',
+  answer: '✨Recuerda que ¡todos nuestros productos tienen envío gratis a cualquier parte de Colombia! 🚚 ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f8d86b6e2b2c34a834e2d2a1a53fb9c4'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_323e505b-d8b8-4acd-a9e4-dbc3f8b6093e',
+  keyword: 'ans_1193aa7f-b6ca-48ca-875a-c0998e55ed86',
+  answer: 'Puedes realizar pago contra entrega o pago en línea 💳',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'da4e62ded7e694cdabdc756b8c7fb216'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0eb290-63cf-4d0e-9279-91b0686091b2',
+  keyword: 'ans_323e505b-d8b8-4acd-a9e4-dbc3f8b6093e',
+  answer: 'Por favor selecciona una opción (1, 2, 3...).',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'bdbcd823e7a10d1cb5a583afe1b35031'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1bfa26c1-b2f4-4125-88d8-67db1c730b84',
+  keyword: 'ans_ca0eb290-63cf-4d0e-9279-91b0686091b2',
+  answer: '*1. 🌞 Kit Solar de emergencia*\n' +
+    '*2. 🧹 Trapero triangular 360*\n' +
+    '*3. 🍽️ Escurridor de platos*\n' +
+    '*4. 📖 Ver catalogo completo*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '721b20fff02cbfbcae7e3688f7204128'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8dadce94-1c4d-45a2-b3a1-93ae93d45dd4',
+  keyword: 'ans_1bfa26c1-b2f4-4125-88d8-67db1c730b84',
+  answer: '*Escribe un numero* 👇',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '26b7871cf1de61ac291d930afc2737bc'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573177153157@s.whatsapp.net',
+    fromMe: false,
+    id: 'DCDF3F042FC127ED1C0882798DD478CE',
+    participant: undefined
+  },
+  messageTimestamp: 1712962126,
+  pushName: 'Christian Calvache',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573177153157'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_043d6f94-66ca-4f0a-be3a-bdb87d0aee68',
+  keyword: 'key_b3338edb-4994-46c8-afc8-40bac9aae2dd',
+  answer: '🍽 *TRAPERO TRIANGULAR*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '567b117b488c799d610069fc6b786710'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d890a27b-84bc-435f-a9f0-a1461fdd0543',
+  keyword: 'ans_043d6f94-66ca-4f0a-be3a-bdb87d0aee68',
+  answer: '💵 69.900💵 Envío gratis y pago contra entrega. 🛒',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a26fe6d1cfa87e46a0d886a7ab9b04f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2353b57f-4abc-4e67-8707-a0fa90e91c1a',
+  keyword: 'ans_d890a27b-84bc-435f-a9f0-a1461fdd0543',
+  answer: '🔧 *CARACTERISTICAS Y ESPECIFICACIONES* ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6fcc54db686908b32769a204e18a7a9b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2bede466-fd54-4c50-9d0a-67bbafa11eaa',
+  keyword: 'ans_2353b57f-4abc-4e67-8707-a0fa90e91c1a',
+  answer: '✅ 3 Bombillos de 3W\n✅ Puerto USB 5V 0.5A\n✅ Radio FM con USB para MP3',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '5e6573c6c73e081bc39160a555d97cf1'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4efaab88-4878-4716-8491-5341353b3293',
+  keyword: 'ans_2bede466-fd54-4c50-9d0a-67bbafa11eaa',
+  answer: 'Por favor, selecciona la opción de pago:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a4c1651c8690c66d9fc8ad3aff15f65d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_15f482d0-172c-49ff-baf3-088361a89db6',
+  keyword: 'ans_4efaab88-4878-4716-8491-5341353b3293',
+  answer: '*1. 🏠 Pago contra entrega*\n' +
+    '*2. 🌐 Pago en linea*\n' +
+    '*3. 💬 Hablar con un asesor*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'ad909d85b6a7816ef0b2207c5a46d610'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7973d922-4001-421d-b36c-7ad107774403',
+  keyword: 'ans_15f482d0-172c-49ff-baf3-088361a89db6',
+  answer: '*Escribe un numero* 👇',
   options: {
     media: null,
     buttons: [],
@@ -114,229 +390,162 @@
       [Object], [Object],
       [Object], [Object],
       [Object], [Object],
+      [Object], [Object],
       [Object], [Object]
     ],
     keyword: {},
     callback: true
   },
-  refSerialize: '8f197234dd600c27544d7c717c6a58fe'
+  refSerialize: '6b0c721db3394068cd6fc2289fffd3a0'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573177153157@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0F7879BF959CE89A3F1',
+    id: '7A892D787C08C23F5E5E976964B4293F',
     participant: undefined
   },
-  messageTimestamp: 1712703008,
+  messageTimestamp: 1712962130,
   pushName: 'Christian Calvache',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '2',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573177153157'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_970aa834-facb-4aa2-baec-7a30b5f81879',
+  keyword: 'key_e7f19e6a-4235-4a8b-884a-bd80fd85c4ec',
+  answer: '💵Para procesar tu pedido, por favor, proporciona la siguiente información:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd9e1f2665bf61f75a98df71b4745a61f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_289c0df0-8e75-43c7-8ed3-a3ab62081243',
+  keyword: 'ans_970aa834-facb-4aa2-baec-7a30b5f81879',
+  answer: '📦 DATOS DE ENVÍO A CONTRA ENTREGA:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0ed99118bce7e4ca7316ac1f4178dd4a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cb6fabd-a697-460b-b756-d0af0bf34a5e',
+  keyword: 'ans_289c0df0-8e75-43c7-8ed3-a3ab62081243',
+  answer: '🔹 Nombre:\n' +
+    '🔹 Cédula:\n' +
+    '🔹 Ciudad:\n' +
+    '🔹 Departamento:\n' +
+    '🔹 Dirección:\n' +
+    '🔹 Barrio o referencia:\n' +
+    '🔹 Celular:\n' +
+    '🔹 Correo Electrónico:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'bf7288d2d97ac9d40f650ef872c66724'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_bbcb647c-94de-4a73-84ae-afcd0afa058e',
+  keyword: 'ans_9cb6fabd-a697-460b-b756-d0af0bf34a5e',
+  answer: 'Tus productos llegarán en un lapso de 2 a 6 días hábiles 📦 ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'fbf5c96fc3e76af804ff26a67a2dc0ee'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573177153157@s.whatsapp.net',
+    fromMe: false,
+    id: 'FA1B8D50D8DFD8C37FCF16A19AB3607D',
+    participant: undefined
+  },
+  messageTimestamp: 1712962142,
+  pushName: 'Christian Calvache',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/27344701_251045171423088_821302088445046547_n.enc?ccb=11-4&oh=01_ASDUG1zSxFrj2njBaZJ9j8N4Tds9e7X64jgAp4VVhHJ1BA&oe=6641247E&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 2,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/27344701_251045171423088_821302088445046547_n.enc?ccb=11-4&oh=01_ASDUG1zSxFrj2njBaZJ9j8N4Tds9e7X64jgAp4VVhHJ1BA&oe=6641247E&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      waveform: [Uint8Array]
     },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '2',
+  body: '_event_voice_note__29790a24-d91f-4165-8032-cfd6aa1e7e77',
   from: '573177153157'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7d86c7fe-3f77-4602-a18d-964f50e5959b',
-  keyword: 'key_01d75269-9077-405d-b90d-a9de7e8b65ee',
-  answer: '¡En Ticketya, nos esforzamos por ofrecerte una experiencia de compra sin problemas!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'ba0459cdf22ce680bff7a17adf420a0b'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6e65751a-82ad-45e4-8d08-512b70987925',
-  keyword: 'ans_7d86c7fe-3f77-4602-a18d-964f50e5959b',
-  answer: 'Por favor selecciona una opción (1, 2, o 3)',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '81338c4641403ba4fd3a826002ccff51'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_284cb887-58c2-4ab7-a230-8c12f226d544',
-  keyword: 'ans_6e65751a-82ad-45e4-8d08-512b70987925',
-  answer: '1. 🚚 *Estado del pedido*\n' +
-    '2. 📦 *Garantias y Devoluciones*\n' +
-    '3. 💬 *Hablar con un asesor*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c61809469b6cbd37ce2757b496e32701'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573177153157@s.whatsapp.net',
     fromMe: false,
-    id: '3EB00D220AA79227678910',
+    id: '9977AD7BBA7E1351B5BFDCFDD125651B',
     participant: undefined
   },
-  messageTimestamp: 1712703012,
+  messageTimestamp: 1712962149,
   pushName: 'Christian Calvache',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '2',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'Christian',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '2',
+  body: 'Christian',
   from: '573177153157'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_619956a5-b9e6-4f8e-9808-44d6933b08ce',
-  keyword: 'key_2fb2ed41-61f0-4274-acc3-775003ae6244',
-  answer: '🕒Intentamos procesar tus garantías o devoluciones dentro de 3 días hábiles.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '3ed31436c3473769b3adeb56dfab6ffb'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6584a110-ae80-43a1-aa32-fc42217df29c',
-  keyword: 'ans_619956a5-b9e6-4f8e-9808-44d6933b08ce',
-  answer: '1. 📮 *Producto defectuoso*\n' +
-    '2. 📦 *Proceso de devolución*\n' +
-    '3. 💬 *Hablar con un asesor*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '1cf9138acef413da071a705f45e391f1'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573177153157@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB00F1AC800B69FF20FE8',
-    participant: undefined
-  },
-  messageTimestamp: 1712703015,
-  pushName: 'Christian Calvache',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '2',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '573177153157'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_78895424-32fa-4e76-8c9b-26b5e1616e00',
-  keyword: 'key_ceab9728-e959-4a87-b7fc-e1cb10ee3d22',
-  answer: 'Para hacer una devolución, sigue estos pasos:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c46a7edc5ddf158c8c58c48f6b61fa7a'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_256475be-c592-4d85-91aa-0b279cd7c254',
-  keyword: 'ans_78895424-32fa-4e76-8c9b-26b5e1616e00',
-  answer: '⭕ Envíanos el número de guía de tu pedido junto con el número de cedúla.\n' +
-    '⭕ Envía un video mostrando claramente el daño del producto.\n' +
-    '⭕ Un asesor se pondra en contacto contigo.\n' +
-    '⭕ Empaqueta el producto en su caja original con todos los accesorios.\n' +
-    '⭕ Asegúrate de que el producto esté en buenas condiciones.\n' +
-    '⭕ Si todo está en orden, te enviaremos un producto nuevo en 3 días hábiles.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '283e52e30b8fe433e5884eb8f4563bde'
 }
